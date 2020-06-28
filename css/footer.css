@@ -1,0 +1,31 @@
+footer {
+    margin: 100px 0 20px;
+}
+
+footer 
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: aliceblue;
+}
+
+.link-items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.link-items 
+a 
+img{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.back-to-top {
+    margin: 0 50px 10px;
+    font-size: 20px;
+    text-align: left;
+}

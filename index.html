@@ -10,10 +10,11 @@
     <header>
         <nav class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" id="top">Home</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
 
@@ -21,15 +22,77 @@
         <h2>Web Developer</h2>
     </header>
     <main>
-        <section>
+        <section class="about-me">
             <h2>About me</h2>
             <p></p>
         </section>
-        
-        <section>
-            <h2>Experience with</h2>
-            <img src="img/incons/html5.svg" alt="html5" width="300" height="250">
+
+        <section class="skills-container" id="skills">
+            <h2>Programing Skills</h2>
+            <figure class="img-container">
+                <div>
+                    <img src="./img/icons/html5.png" alt="html5">
+                    <figcaption>HTML5</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/css3.png" alt="css3">
+                    <figcaption>CSS3</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/javaScript.png" alt="javaScript">
+                    <figcaption>JavaScript</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/node.png" alt="nodejs">
+                    <figcaption>NodeJs</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/sass.png" alt="sass">
+                    <figcaption>SASS</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/jquery.png" alt="jqeury">
+                    <figcaption>JQuery</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/python.png" alt="python">
+                    <figcaption>Python</figcaption>
+                </div>
+
+                <div>
+                    <img src="./img/icons/java.png" alt="java">
+                    <figcaption>Java</figcaption>
+                </div>
+  
+            </figure>
         </section>
+
+        <section>
+            <h2 class="portfolio">Portfolio</h2>
+        </section>
+
     </main>
+
+    <footer>
+        <h2 id="contact-me">Contact Me</h2>
+
+        <div class="link-items">
+            <a href="https://github.com/sbazelais"><img src="./img/icons/github.svg" alt="github"></a>
+        
+            <a href="https://www.linkedin.com/in/stevebazelais/" target="_blank"><img src="./img/icons/linkedin.svg" alt="linkedin"></a>
+        
+            <a href="https://twitter.com/SMBazelais" target="_blank"><img src="./img/icons/twitter.svg" alt="linkedin"></a>
+
+            <a href="https://twitter.com/SMBazelais" target="_blank"><img src="./img/icons/google-gmail.svg" alt="linkedin"></a>
+        </div>
+
+        <p class="back-to-top"><a href="#top">Back to the top</a></p>
+    </footer>
 </body>
 </html>

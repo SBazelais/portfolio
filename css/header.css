@@ -2,7 +2,7 @@ header {
     background-image: url(../img/nav-img.jpg);
     background-position: top center;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 100vh;
     margin-top: 0;
     text-align: center;
 }
@@ -10,26 +10,42 @@ header {
 header 
 ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     padding-top: 2.5em;
-    margin-bottom: 7em;
+    margin: 0 auto 11em;
+    flex-direction: row;
+    width: 70%;
 }
 
 header
 ul 
-li{
-    margin-right: 1em;
+li{ 
+    padding-right: 2em;
     font-size: 2em;
     list-style: none;
     color: #e1f2fb;
+    display: flex;
 }
+
 
 header
 ul 
 li
-a {
+a { 
+    text-align: justify;
     text-decoration: none;
     color: white;
+}
+
+.navigation
+a:hover{
+    border-radius: 10px;
+    transform: scale(1.2);
+    padding: 0 10px;
+    border: 1px solid #e1f2fb;
+    background-color: #0BCECC;
+    box-shadow: 15px 13px 27px 8px #000000;
 }
 
 header
@@ -37,10 +53,16 @@ h1{
     font-size: 5em;
     margin-bottom: .2em;
     color: #e1f2fb;
+    text-shadow: 8px 6px 12px #0BCECC;;
 }
 
 header
 h2 {
     font-size: 50px;
     color: #e1f2fb;
+    text-shadow: 8px 6px 12px #0BCECC;
 }
+
+
+
+
